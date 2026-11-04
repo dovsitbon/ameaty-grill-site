@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "title": "Kosher Private Meat Chef at Home for Events Across Israel | Ameaty Grill",
+    "description": "Ameaty Grill is Yonathan Assouly's kosher private meat chef service: live grill, table service and an alcohol bar for friends' parties, birthdays, Sheva Brachot and Bar Mitzvahs anywhere in Israel. He brings all the equipment. Get a quote on WhatsApp.",
+    "ogAlt": "Yonathan turning meat on the grill over the coals"
+  },
+  "intro": { "skip": "Skip" },
+  "nav": {
+    "chef": "The chef",
+    "formulas": "Packages",
+    "events": "Events",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "quoteShort": "Quote",
+    "menu": "Navigation",
+    "close": "Close",
+    "home": "Ameaty Grill – home",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "whatsapp": {
+    "hello": "Hi Yonathan, I found you through the Ameaty Grill website and I'd like to talk about an event.",
+    "float": "Message Yonathan on WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "PRIVATE CHEF · KOSHER MEAT · ALL ISRAEL",
+    "title": "The real grill, at your place",
+    "text": "A kosher private meat chef who shows up with his grill, his coals and his meat, and cooks right in front of your guests.",
+    "cta": "Get a quote",
+    "whatsapp": "WhatsApp",
+    "scroll": "Scroll down",
+    "video": "Skewers and beef ribs grilling over the coals"
+  },
+  "manifesto": {
+    "eyebrow": "Ameaty, as in “real”",
+    "title": "Real meat, cooked in front of you, over real coals.",
+    "text": "In Hebrew, “amiti” means real. That's the whole idea: carefully chosen kosher meat, coals lit on site, and a chef who slices, flames and serves while your guests enjoy themselves. You host, I handle the fire.",
+    "link": "What I offer"
+  },
+  "pillars": {
+    "eyebrow": "Three ways to host",
+    "title": "What I bring to your place",
+    "items": [
+      { "name": "Live grill", "label": "On the fire, in front of your guests", "text": "The grill goes in your garden, on the terrace or in the hall. Entrecôte, ribs, skewers: everything comes off the coals the moment it's eaten.", "link": "See the packages" },
+      { "name": "Table service", "label": "Seated, boards and plates", "text": "For a dinner, the meat comes to the table: carpaccio, sliced boards, a blowtorch flambé right in front of you. Your guests stay seated and the show comes to them.", "link": "See the packages" },
+      { "name": "Bar & extras", "label": "To keep the night going", "text": "An alcohol bar with a bartender, glasses and service, plus a few extras depending on the event. Available with every package.", "link": "See the bar" }
+    ]
+  },
+  "trust": {
+    "items": [
+      { "title": "100% kosher", "text": "Kosher meat only" },
+      { "title": "Equipment included", "text": "Grill, coals, boards, tools" },
+      { "title": "Anywhere in Israel", "text": "Home, garden, hall or terrace" },
+      { "title": "Quote on WhatsApp", "text": "A direct reply from the chef" }
+    ]
+  },
+  "bleed": {
+    "eyebrow": "FROM THE NORTH TO THE SOUTH",
+    "title": "Events all over the country",
+    "text": "North or south, in town or out in the fields: the grill travels with me."
+  },
+  "formulas": {
+    "eyebrow": "Packages",
+    "title": "Pick your package",
+    "text": "Three starting points to fit your event, your guest count and what you feel like eating. We settle the final menu together.",
+    "from": "from",
+    "perGuest": "per guest",
+    "minGuests": "Minimum {n} guests",
+    "indicative": "sample price, to be confirmed",
+    "kosher": "Kosher",
+    "included": "What's included",
+    "cta": "Choose this package",
+    "items": {
+      "live": { "name": "Live grill", "note": "A chef's barbecue, standing around the fire." },
+      "table": { "name": "At the table", "note": "A dinner served at the table, board after board." },
+      "signature": { "name": "Signature", "note": "Live grill and table service, for the big occasions." }
+    },
+    "includes": {
+      "chef": "The chef on site, from lighting the coals to the last plate",
+      "team": "A service team sized to your guest count",
+      "equipment": "Grill, charcoal, boards and tools, all brought along",
+      "meats3": "3 meats of your choice",
+      "meats5": "5 meats of your choice, including a special cut",
+      "salads": "House salads and sauces",
+      "bread": "Bread toasted over the coals",
+      "hours3": "About 3 hours of grilling",
+      "hours4": "About 4 hours of service",
+      "starters": "Starters served at the table",
+      "carpaccio": "Beef carpaccio",
+      "boards": "Meat boards sliced in front of you",
+      "sides": "Roasted sides",
+      "flambe": "Blowtorch flambé at the table",
+      "barman": "Bartender and service",
+      "glasses": "Glassware and a wooden bar",
+      "drinks": "Wine, spirits and soft drinks",
+      "cocktails": "A short cocktail list"
+    },
+    "bar": {
+      "name": "Alcohol bar",
+      "note": "Add it to any package.",
+      "cta": "Add the bar"
+    }
+  },
+  "events": {
+    "eyebrow": "Events",
+    "title": "For every celebration",
+    "text": "A night with friends or a two-hundred-guest Bar Mitzvah: same fire, same meat, same goal of sending everyone home happy.",
+    "video": "Yonathan slicing meat at the table during a party",
+    "items": [
+      { "name": "Friends party", "text": "The grill in the middle of the garden, music, and boards going round all night." },
+      { "name": "Birthday", "text": "A table out of the ordinary, and a flambé right as the glasses go up." },
+      { "name": "Sheva Brachot", "text": "A careful meal for the seven days of celebration, served at the table or off the grill." },
+      { "name": "Bar Mitzvah", "text": "Lots of guests, hungry kids and grown-ups asking for more: we plan for it." },
+      { "name": "Purim & holidays", "text": "The Purim seuda, Independence Day, an end-of-year party: meat is always welcome." }
+    ]
+  },
+  "menu": {
+    "eyebrow": "The menu",
+    "title": "On the coals, and around them",
+    "text": "A taste of what can come off the grill. Cuts change with the season and what's available.",
+    "note": "Sample menu. We build yours together for your event.",
+    "sections": { "meats": "The meats", "starters": "To start", "sides": "Sides" },
+    "items": {
+      "entrecote": { "name": "Entrecôte", "desc": "Seared over the coals, sliced on the board, confit garlic and rosemary" },
+      "tomahawk": { "name": "Rib steak & tomahawk", "desc": "The cut that gets guests out of their seats" },
+      "fillet": { "name": "Fillet", "desc": "Medium rare, in thick slices" },
+      "skewers": { "name": "Skewers", "desc": "Marinated chicken thigh and beef, on the grill" },
+      "kebab": { "name": "Kebab", "desc": "Herbed ground meat, tahini" },
+      "confit": { "name": "Slow-cooked beef", "desc": "Four hours in the oven, falls apart with a fork" },
+      "carpaccio": { "name": "Beef carpaccio", "desc": "Balsamic reduction, garlic, green chili" },
+      "bruschetta": { "name": "Bruschetta", "desc": "Cured beef, crisp lettuce, mushrooms" },
+      "hummus": { "name": "Hummus with meat", "desc": "Creamy hummus, pan-fried ground beef, tahini" },
+      "eggplant": { "name": "Smoked eggplant", "desc": "Charred eggplant, tahini, pine nuts" },
+      "crudo": { "name": "Salmon crudo", "desc": "Olive oil, chili, dill" },
+      "grilledeggplant": { "name": "Ember-roasted eggplant", "desc": "Cooked whole in the charcoal" },
+      "roastveg": { "name": "Roasted vegetables", "desc": "Sweet potato, zucchini, eggplant" },
+      "potatoes": { "name": "Potatoes", "desc": "Roasted and crispy" },
+      "bread": { "name": "Grilled bread", "desc": "Toasted on the coals just before serving" },
+      "salads": { "name": "Salads & sauces", "desc": "Fresh salads, chimichurri, house sauces" }
+    }
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Four steps, zero stress",
+    "steps": [
+      { "name": "We talk", "text": "A WhatsApp message or the form: the date, the place, how many guests." },
+      { "name": "We plan", "text": "We pick the package and the menu together, and I send you a clear quote." },
+      { "name": "I show up", "text": "On the day, I arrive with the grill, the charcoal, the meat and all the gear." },
+      { "name": "You enjoy", "text": "You stay with your guests. I take care of the fire, the service and the clean-up." }
+    ]
+  },
+  "chef": {
+    "eyebrow": "The chef",
+    "title": "Yonathan Assouly",
+    "text": [
+      "Ameaty Grill is me: Yonathan, a kosher private meat chef who comes to your home and to your events anywhere in Israel.",
+      "I love the moment the coals are ready, the first cut hits the grill and the guests start drifting towards the fire. My job is to make that moment last all night."
+    ],
+    "follow": "Follow @ameaty_grill",
+    "video": "Entrecôte steaks searing on the grill"
+  },
+  "gallery": {
+    "eyebrow": "Up close",
+    "title": "The coals, the meat, the table",
+    "text": "Photos from my events, unretouched.",
+    "filters": { "all": "All", "grill": "Grill", "table": "At the table", "events": "Events" },
+    "open": "Enlarge",
+    "more": "More on Instagram"
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "They say it better than I do",
+    "empty": "Reviews from my clients are coming here soon. In the meantime, their nights are on Instagram.",
+    "cta": "See Instagram"
+  },
+  "area": {
+    "eyebrow": "Area",
+    "title": "All of Israel",
+    "text": "I travel all over the country: to your home, a garden, a hall or a terrace.",
+    "items": [
+      { "label": "Where", "value": "Anywhere in Israel. Travel costs depend on the distance and are listed in the quote." },
+      { "label": "Kashrut", "value": "Kosher meat only. Tell me your requirement in your request." },
+      { "label": "Equipment", "value": "I bring the grill, charcoal, boards and tools." },
+      { "label": "Phone", "value": "WhatsApp or call: 054-968-6221" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Before you book",
+    "items": [
+      { "q": "Is the meat kosher?", "a": "Yes, all the meat is kosher. If you need a specific certification (Rabbanut, Mehadrin, Badatz), add it to your request and I'll confirm what's possible." },
+      { "q": "What do I need to have at home?", "a": "An outdoor or well-ventilated spot for the grill, and that's about it. I bring the grill, charcoal, boards and tools." },
+      { "q": "What's the minimum number of guests?", "a": "It depends on the package: a table dinner works for small groups, a live grill is built for crowds. Each package shows its minimum." },
+      { "q": "Where do you travel?", "a": "Anywhere in Israel. Any travel cost is clearly listed in the quote." },
+      { "q": "How do I book a date?", "a": "Fill in the form or message me on WhatsApp. We set the menu together, then I hold the date for you." }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Quote",
+    "title": "Tell me about your event",
+    "text": "A few details, the message opens in your WhatsApp, and I get back to you with a quote.",
+    "steps": { "event": "The event", "menu": "The package", "contact": "Your details" },
+    "fields": {
+      "type": "Type of event",
+      "types": { "friends": "Friends party", "birthday": "Birthday", "sheva": "Sheva Brachot", "barmitzvah": "Bar Mitzvah", "party": "Party", "corporate": "Company event", "other": "Other" },
+      "date": "Date",
+      "time": "Time",
+      "place": "Venue / city",
+      "placePlaceholder": "E.g. Netanya, in the garden",
+      "guests": "Number of guests",
+      "formula": "Which package?",
+      "formulas": { "live": "Live grill", "table": "At the table", "both": "Both / let's decide together" },
+      "bar": "Alcohol bar?",
+      "yesno": { "yes": "Yes", "no": "No" },
+      "kashrut": "Kashrut requirements",
+      "kashrutPlaceholder": "E.g. Rabbanut, Mehadrin, Badatz",
+      "budget": "Rough budget per guest",
+      "budgetPlaceholder": "E.g. ₪250",
+      "name": "Full name",
+      "phone": "Phone",
+      "message": "Anything else I should know?",
+      "messagePlaceholder": "Allergies, kids, menu ideas – all welcome",
+      "optional": "optional",
+      "dateTaken": "That date is already booked. Send it anyway, we might find a way.",
+      "dateFree": "The date looks free. We'll confirm together."
+    },
+    "submit": "Send on WhatsApp",
+    "hint": "Nothing is stored on the site: the summary opens in WhatsApp and you're the one who sends it.",
+    "required": "I need this to get back to you",
+    "invalidPhone": "This number doesn't look right",
+    "pickType": "Choose a type of event",
+    "success": {
+      "thanks": "Thank you!",
+      "title": "Your message is ready in WhatsApp",
+      "text": "Just hit send. I'll get back to you quickly with a quote.",
+      "again": "Open WhatsApp again",
+      "reset": "New request"
+    },
+    "message": {
+      "title": "Quote request – Ameaty Grill",
+      "type": "Event",
+      "date": "Date",
+      "time": "Time",
+      "place": "Venue",
+      "guests": "Guests",
+      "formula": "Package",
+      "bar": "Alcohol bar",
+      "kashrut": "Kashrut",
+      "budget": "Budget per guest",
+      "name": "Name",
+      "phone": "Phone",
+      "notes": "Notes",
+      "closing": "Sent from the Ameaty Grill website"
+    }
+  },
+  "lightbox": { "close": "Close", "prev": "Previous", "next": "Next", "counter": "{n} of {total}" },
+  "footer": {
+    "tagline": "Kosher private meat chef, at your home and at your events, anywhere in Israel.",
+    "contact": "Contact",
+    "explore": "On the site",
+    "area": "Events all over Israel",
+    "rights": "All rights reserved",
+    "photos": "All photos and videos: Ameaty Grill events"
+  },
+  "alt": {
+    "grill-pinces-fumee": "Yonathan turning meat on the grill over the coals",
+    "braises": "Glowing coals and flames in the grill",
+    "tomahawks-grill": "Two grilled tomahawks held by the bone above the grill",
+    "video-grill": "Skewers and ribs grilling over the coals",
+    "brochettes-grill": "Beef and chicken skewers lined up on the grill",
+    "cotes-crues-planche": "Marbled raw rib steaks on a wooden board",
+    "entrecotes-crues": "Raw entrecôte steaks lined up on a long board",
+    "tomahawk-planche-fumee": "Rib chops on a log board in a cloud of cold smoke",
+    "entrecotes-romarin": "Entrecôte steaks seasoned with rosemary, garlic and red chili",
+    "entrecotes-sur-le-grill": "Thick steaks laid on the grill",
+    "cote-de-boeuf-grill": "Rib steaks searing on the grill",
+    "aubergines-braise": "Whole eggplants roasting on the coals",
+    "lit-de-braises": "A bed of glowing charcoal, ready for cooking",
+    "planche-tranchee": "Board of sliced beef with confit garlic and rosemary",
+    "bruschettas-boeuf-seche": "Cured beef bruschetta with balsamic reduction on slate",
+    "bruschettas-champignons": "Cured beef bruschetta with grilled mushrooms",
+    "carpaccio": "Beef carpaccio with garlic, green chili and reduction",
+    "planche-kebabs-entrecote": "Board of kebabs and sliced entrecôte with vegetables",
+    "filet-tranche-planche": "Sliced pink fillet on a wooden board",
+    "planche-ail-confit": "Strips of grilled beef with confit garlic cloves",
+    "entrecotes-poele": "Two seared entrecôtes with rosemary and garlic",
+    "viande-confite": "Slow-cooked beef falling apart",
+    "crudo-saumon": "Salmon crudo with olive oil and chili",
+    "caviar-aubergine": "Smoked eggplant with tahini and pine nuts",
+    "houmous-viande": "Hummus topped with ground beef and tahini",
+    "legumes-rotis": "Roasted sweet potato and eggplant arranged in a circle",
+    "sandwichs-planche": "Small filled sandwiches on a board at a buffet",
+    "flambe-planche": "Meat board flamed with a blowtorch in front of guests",
+    "tranchage": "Pink beef being sliced on the board",
+    "kebabs-tahini": "Grilled kebabs drizzled with tahini on a board",
+    "video-flambe": "Meat board flamed with a blowtorch",
+    "terrasse-tables": "Terrace set with round tables and white chairs at sunset",
+    "plateau-fruits": "Large platter of fresh cut fruit",
+    "flambe-invites": "Board flamed with a blowtorch among the guests",
+    "soiree-terrasse-nuit": "Evening party on a lit terrace at night",
+    "chef-decoupe-soiree": "Yonathan carving beef at the table during a party",
+    "video-soiree": "Yonathan slicing meat at the table during a party",
+    "bar-bois-terrasse": "Wooden bar with glasses lined up on a terrace",
+    "verres-bar": "Wine glasses ready on the wooden bar",
+    "video-bar": "Bar service during an event",
+    "yonathan-planche": "Yonathan Assouly behind a board of rosemary entrecôtes",
+    "yonathan-service": "Yonathan slicing a rib steak at the table",
+    "video-entrecote": "Entrecôte steaks searing on the grill"
+  }
+}

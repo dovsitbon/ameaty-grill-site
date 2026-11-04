@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "title": "Chef privado kosher de carnes a domicilio para eventos en Israel | Ameaty Grill",
+    "description": "Ameaty Grill, el servicio de chef privado de carnes kosher de Yonathan Assouly: parrilla en vivo, servicio en mesa y barra de bebidas para fiestas con amigos, cumpleaños, Sheva Brajot y Bar Mitzvá en todo Israel. Llega con todo el equipo. Presupuesto por WhatsApp.",
+    "ogAlt": "Yonathan da la vuelta a la carne en la parrilla, sobre las brasas"
+  },
+  "intro": { "skip": "Saltar" },
+  "nav": {
+    "chef": "El chef",
+    "formulas": "Fórmulas",
+    "events": "Eventos",
+    "gallery": "Galería",
+    "contact": "Contacto",
+    "quote": "Pedir presupuesto",
+    "quoteShort": "Presupuesto",
+    "menu": "Navegación",
+    "close": "Cerrar",
+    "home": "Ameaty Grill – inicio",
+    "language": "Idioma",
+    "skip": "Ir al contenido"
+  },
+  "whatsapp": {
+    "hello": "Hola Yonathan, llego desde la web de Ameaty Grill y me gustaría hablar de un evento.",
+    "float": "Escribir a Yonathan por WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "PRIVATE CHEF · KOSHER MEAT · ALL ISRAEL",
+    "title": "La parrilla de verdad, en tu casa",
+    "text": "Un chef privado de carnes kosher que llega con su parrilla, sus brasas y su carne, y cocina delante de tus invitados.",
+    "cta": "Pedir presupuesto",
+    "whatsapp": "WhatsApp",
+    "scroll": "Descubrir",
+    "video": "Brochetas y costillas de ternera asándose sobre las brasas"
+  },
+  "manifesto": {
+    "eyebrow": "Ameaty, como «auténtico»",
+    "title": "Carne de verdad, hecha delante de ti, sobre brasas de verdad.",
+    "text": "En hebreo, «amití» significa auténtico. Esa es la idea: carne kosher elegida con cuidado, brasas encendidas en el lugar y un chef que corta, flambea y sirve mientras tus invitados disfrutan. Tú recibes, yo me encargo del fuego.",
+    "link": "Lo que propongo"
+  },
+  "pillars": {
+    "eyebrow": "Tres formas de recibir",
+    "title": "Lo que llevo a tu casa",
+    "items": [
+      { "name": "Parrilla en vivo", "label": "Al fuego, delante de los invitados", "text": "La parrilla se instala en tu jardín, en la terraza o en el salón. Entrecot, costillas, brochetas: todo sale de las brasas justo cuando se come.", "link": "Ver las fórmulas" },
+      { "name": "Servicio en mesa", "label": "Sentados, tablas y platos", "text": "Para una cena, la carne llega a la mesa: carpaccio, tablas cortadas, flambeado con soplete delante de ti. Los invitados siguen sentados y el espectáculo va hacia ellos.", "link": "Ver las fórmulas" },
+      { "name": "Barra y extras", "label": "Para alargar la noche", "text": "Una barra de bebidas con barman, copas y servicio, y algunos extras según el evento. Opcional en todas las fórmulas.", "link": "Ver la barra" }
+    ]
+  },
+  "trust": {
+    "items": [
+      { "title": "100 % kosher", "text": "Solo carne kosher" },
+      { "title": "Equipo incluido", "text": "Parrilla, brasas, tablas, utensilios" },
+      { "title": "En todo Israel", "text": "Casa, jardín, salón o terraza" },
+      { "title": "Presupuesto por WhatsApp", "text": "Respuesta directa del chef" }
+    ]
+  },
+  "bleed": {
+    "eyebrow": "FROM THE NORTH TO THE SOUTH",
+    "title": "Eventos en todo el país",
+    "text": "Del norte al sur, en la ciudad o en pleno campo: la parrilla viaja conmigo."
+  },
+  "formulas": {
+    "eyebrow": "Fórmulas",
+    "title": "Elige tu fórmula",
+    "text": "Tres bases para adaptar a tu evento, al número de invitados y a lo que te apetezca. El menú final lo decidimos juntos.",
+    "from": "desde",
+    "perGuest": "por persona",
+    "minGuests": "Mínimo {n} invitados",
+    "indicative": "precio de ejemplo, por confirmar",
+    "kosher": "Kosher",
+    "included": "Qué incluye",
+    "cta": "Elegir esta fórmula",
+    "items": {
+      "live": { "name": "Parrilla en vivo", "note": "La barbacoa de chef, de pie, alrededor del fuego." },
+      "table": { "name": "En la mesa", "note": "Una cena servida en la mesa, tabla tras tabla." },
+      "signature": { "name": "Signature", "note": "Parrilla en vivo y servicio en mesa, para las grandes ocasiones." }
+    },
+    "includes": {
+      "chef": "El chef en el lugar, desde encender las brasas hasta el último plato",
+      "team": "Un equipo de servicio según el número de invitados",
+      "equipment": "Parrilla, carbón, tablas y utensilios, todo incluido",
+      "meats3": "3 carnes a elegir",
+      "meats5": "5 carnes a elegir, con una pieza especial",
+      "salads": "Ensaladas y salsas caseras",
+      "bread": "Pan tostado sobre las brasas",
+      "hours3": "Unas 3 horas de parrilla",
+      "hours4": "Unas 4 horas de servicio",
+      "starters": "Entrantes servidos en la mesa",
+      "carpaccio": "Carpaccio de ternera",
+      "boards": "Tablas de carne cortada delante de ti",
+      "sides": "Guarniciones asadas",
+      "flambe": "Flambeado con soplete en la mesa",
+      "barman": "Barman y servicio",
+      "glasses": "Copas y barra de madera",
+      "drinks": "Vinos, licores y refrescos",
+      "cocktails": "Algunos cócteles a elegir"
+    },
+    "bar": {
+      "name": "Barra de bebidas",
+      "note": "Opcional en todas las fórmulas.",
+      "cta": "Añadir la barra"
+    }
+  },
+  "events": {
+    "eyebrow": "Eventos",
+    "title": "Para todas tus fiestas",
+    "text": "Una noche con amigos o un Bar Mitzvá de doscientas personas: el mismo fuego, la misma carne y las mismas ganas de que todos se vayan contentos.",
+    "video": "Yonathan corta la carne en la mesa durante una fiesta",
+    "items": [
+      { "name": "Fiesta con amigos", "text": "La parrilla en medio del jardín, música y tablas que circulan toda la noche." },
+      { "name": "Cumpleaños", "text": "Una mesa fuera de lo común y un flambeado justo cuando se levantan las copas." },
+      { "name": "Sheva Brajot", "text": "Una comida cuidada para los siete días de fiesta, en la mesa o a la parrilla, según la noche." },
+      { "name": "Bar Mitzvá", "text": "Muchos invitados, niños con hambre y mayores que repiten: nos organizamos." },
+      { "name": "Purim y fiestas", "text": "La seudá de Purim, Yom Haatsmaut, una fiesta de fin de año: la carne siempre es bienvenida." }
+    ]
+  },
+  "menu": {
+    "eyebrow": "El menú",
+    "title": "Sobre las brasas, y alrededor",
+    "text": "Una idea de lo que puede salir de la parrilla. Los cortes cambian según la temporada y lo que llega.",
+    "note": "Menú de ejemplo, que armamos juntos para tu evento.",
+    "sections": { "meats": "Las carnes", "starters": "Para empezar", "sides": "Guarniciones" },
+    "items": {
+      "entrecote": { "name": "Entrecot", "desc": "Sellado en las brasas, cortado en la tabla, ajo confitado y romero" },
+      "tomahawk": { "name": "Chuletón y tomahawk", "desc": "La pieza que levanta a los invitados de la silla" },
+      "fillet": { "name": "Solomillo", "desc": "Al punto, en lonchas gruesas" },
+      "skewers": { "name": "Brochetas", "desc": "Muslo de pollo y ternera marinados, a la parrilla" },
+      "kebab": { "name": "Kebab", "desc": "Carne picada con hierbas, tahini" },
+      "confit": { "name": "Carne a baja temperatura", "desc": "Cuatro horas en el horno, se deshace con el tenedor" },
+      "carpaccio": { "name": "Carpaccio de ternera", "desc": "Reducción de balsámico, ajo, guindilla verde" },
+      "bruschetta": { "name": "Bruschettas", "desc": "Cecina de ternera, lechuga crujiente, setas" },
+      "hummus": { "name": "Hummus con carne", "desc": "Hummus cremoso, carne picada salteada, tahini" },
+      "eggplant": { "name": "Berenjena ahumada", "desc": "Berenjena asada, tahini, piñones" },
+      "crudo": { "name": "Crudo de salmón", "desc": "Aceite de oliva, guindilla, eneldo" },
+      "grilledeggplant": { "name": "Berenjenas a la brasa", "desc": "Enteras, dentro del carbón" },
+      "roastveg": { "name": "Verduras asadas", "desc": "Boniato, calabacín, berenjena" },
+      "potatoes": { "name": "Patatas", "desc": "Asadas y crujientes" },
+      "bread": { "name": "Pan tostado", "desc": "Pasado por las brasas justo antes de servir" },
+      "salads": { "name": "Ensaladas y salsas", "desc": "Ensaladas frescas, chimichurri, salsas caseras" }
+    }
+  },
+  "process": {
+    "eyebrow": "Cómo funciona",
+    "title": "Cuatro pasos, cero estrés",
+    "steps": [
+      { "name": "Hablamos", "text": "Un mensaje de WhatsApp o el formulario: la fecha, el lugar, cuántos invitados." },
+      { "name": "Lo armamos", "text": "Elegimos juntos la fórmula y el menú, y te envío un presupuesto claro." },
+      { "name": "Llego", "text": "El día del evento llego con la parrilla, el carbón, la carne y todo el equipo." },
+      { "name": "Disfrutas", "text": "Tú estás con tus invitados. Yo me ocupo del fuego, del servicio y de recoger." }
+    ]
+  },
+  "chef": {
+    "eyebrow": "El chef",
+    "title": "Yonathan Assouly",
+    "text": [
+      "Ameaty Grill soy yo: Yonathan, chef privado de carnes kosher, que va a tu casa y a tus eventos en todo Israel.",
+      "Me encanta el momento en que las brasas están listas, la primera pieza toca la parrilla y los invitados empiezan a acercarse al fuego. Mi trabajo es que ese momento dure toda la noche."
+    ],
+    "follow": "Seguir a @ameaty_grill",
+    "video": "Entrecots sellándose en la parrilla"
+  },
+  "gallery": {
+    "eyebrow": "De cerca",
+    "title": "Las brasas, la carne, la mesa",
+    "text": "Fotos de mis eventos, sin retoques.",
+    "filters": { "all": "Todo", "grill": "Parrilla", "table": "En la mesa", "events": "Eventos" },
+    "open": "Ampliar",
+    "more": "Más en Instagram"
+  },
+  "reviews": {
+    "eyebrow": "Opiniones",
+    "title": "Ellos lo cuentan mejor que yo",
+    "empty": "Las opiniones de mis clientes llegarán aquí muy pronto. Mientras tanto, sus noches están en Instagram.",
+    "cta": "Ver Instagram"
+  },
+  "area": {
+    "eyebrow": "Zona",
+    "title": "Todo Israel",
+    "text": "Me desplazo por todo el país: a tu casa, a un jardín, a un salón o a una terraza.",
+    "items": [
+      { "label": "Dónde", "value": "En todo Israel. Los gastos de desplazamiento dependen de la distancia y figuran en el presupuesto." },
+      { "label": "Kashrut", "value": "Solo carne kosher. Indica tu exigencia en la solicitud." },
+      { "label": "Equipo", "value": "Llevo la parrilla, el carbón, las tablas y los utensilios." },
+      { "label": "Teléfono", "value": "WhatsApp o llamada: 054-968-6221" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas",
+    "title": "Antes de reservar",
+    "items": [
+      { "q": "¿La carne es kosher?", "a": "Sí, toda la carne es kosher. Si necesitas una certificación concreta (Rabanut, Mehadrin, Badatz), indícala en tu solicitud y te confirmo qué es posible." },
+      { "q": "¿Qué tengo que preparar en casa?", "a": "Un espacio exterior o bien ventilado para la parrilla, y poco más. Llego con la parrilla, el carbón, las tablas y los utensilios." },
+      { "q": "¿Desde cuántos invitados?", "a": "Depende de la fórmula: una cena en la mesa puede ser en grupo pequeño, la parrilla en vivo está pensada para grupos. Cada fórmula indica su mínimo." },
+      { "q": "¿Adónde te desplazas?", "a": "A todo Israel. Si hay gastos de desplazamiento, aparecen claramente en el presupuesto." },
+      { "q": "¿Cómo reservo una fecha?", "a": "Rellena el formulario o escríbeme por WhatsApp. Cerramos el menú juntos y luego te guardo la fecha." }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Presupuesto",
+    "title": "Cuéntame tu evento",
+    "text": "Unos detalles, el mensaje se abre en tu WhatsApp y te respondo con un presupuesto.",
+    "steps": { "event": "El evento", "menu": "La fórmula", "contact": "Tus datos" },
+    "fields": {
+      "type": "Tipo de evento",
+      "types": { "friends": "Fiesta con amigos", "birthday": "Cumpleaños", "sheva": "Sheva Brajot", "barmitzvah": "Bar Mitzvá", "party": "Fiesta", "corporate": "Empresa", "other": "Otro" },
+      "date": "Fecha",
+      "time": "Hora",
+      "place": "Lugar / ciudad",
+      "placePlaceholder": "Ej.: Netanya, en el jardín",
+      "guests": "Número de invitados",
+      "formula": "¿Qué fórmula?",
+      "formulas": { "live": "Parrilla en vivo", "table": "En la mesa", "both": "Las dos / lo vemos juntos" },
+      "bar": "¿Barra de bebidas?",
+      "yesno": { "yes": "Sí", "no": "No" },
+      "kashrut": "Requisitos de kashrut",
+      "kashrutPlaceholder": "Ej.: Rabanut, Mehadrin, Badatz",
+      "budget": "Presupuesto orientativo por persona",
+      "budgetPlaceholder": "Ej.: 250 ₪",
+      "name": "Nombre completo",
+      "phone": "Teléfono",
+      "message": "¿Algo más que deba saber?",
+      "messagePlaceholder": "Alergias, niños, ideas de menú: todo es bienvenido",
+      "optional": "opcional",
+      "dateTaken": "Esa fecha ya está reservada. Envíalo igualmente, quizá encontremos una solución.",
+      "dateFree": "La fecha parece libre. Lo confirmamos juntos."
+    },
+    "submit": "Enviar por WhatsApp",
+    "hint": "No se guarda nada en la web: el resumen se abre en WhatsApp y eres tú quien lo envía.",
+    "required": "Lo necesito para responderte",
+    "invalidPhone": "Este número no parece válido",
+    "pickType": "Elige un tipo de evento",
+    "success": {
+      "thanks": "¡Gracias!",
+      "title": "Tu mensaje está listo en WhatsApp",
+      "text": "Solo queda pulsar enviar. Te respondo pronto con un presupuesto.",
+      "again": "Abrir WhatsApp de nuevo",
+      "reset": "Nueva solicitud"
+    },
+    "message": {
+      "title": "Solicitud de presupuesto – Ameaty Grill",
+      "type": "Evento",
+      "date": "Fecha",
+      "time": "Hora",
+      "place": "Lugar",
+      "guests": "Invitados",
+      "formula": "Fórmula",
+      "bar": "Barra de bebidas",
+      "kashrut": "Kashrut",
+      "budget": "Presupuesto / pers.",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "notes": "Detalles",
+      "closing": "Enviado desde la web de Ameaty Grill"
+    }
+  },
+  "lightbox": { "close": "Cerrar", "prev": "Anterior", "next": "Siguiente", "counter": "{n} de {total}" },
+  "footer": {
+    "tagline": "Chef privado de carnes kosher, a domicilio y en tus eventos, en todo Israel.",
+    "contact": "Contacto",
+    "explore": "En la web",
+    "area": "Eventos en todo Israel",
+    "rights": "Todos los derechos reservados",
+    "photos": "Todas las fotos y vídeos: eventos de Ameaty Grill"
+  },
+  "alt": {
+    "grill-pinces-fumee": "Yonathan da la vuelta a la carne en la parrilla, sobre las brasas",
+    "braises": "Brasas incandescentes y llamas en la parrilla",
+    "tomahawks-grill": "Dos tomahawks asados sujetos por el hueso sobre la parrilla",
+    "video-grill": "Brochetas y costillas asándose sobre las brasas",
+    "brochettes-grill": "Brochetas de ternera y pollo alineadas en la parrilla",
+    "cotes-crues-planche": "Chuletones crudos veteados sobre una tabla de madera",
+    "entrecotes-crues": "Entrecots crudos alineados sobre una tabla larga",
+    "tomahawk-planche-fumee": "Chuletas sobre un tronco, en una nube de humo frío",
+    "entrecotes-romarin": "Entrecots sazonados con romero, ajo y guindilla roja",
+    "entrecotes-sur-le-grill": "Entrecots gruesos sobre la parrilla",
+    "cote-de-boeuf-grill": "Chuletones sellándose en la parrilla",
+    "aubergines-braise": "Berenjenas enteras asándose sobre las brasas",
+    "lit-de-braises": "Lecho de carbón encendido, listo para cocinar",
+    "planche-tranchee": "Tabla de ternera cortada con ajo confitado y romero",
+    "bruschettas-boeuf-seche": "Bruschettas de cecina con reducción de balsámico sobre pizarra",
+    "bruschettas-champignons": "Bruschettas de cecina y setas a la plancha",
+    "carpaccio": "Carpaccio de ternera con ajo, guindilla verde y reducción",
+    "planche-kebabs-entrecote": "Tabla de kebabs y entrecot cortado con verduras",
+    "filet-tranche-planche": "Solomillo rosado cortado sobre una tabla de madera",
+    "planche-ail-confit": "Tiras de ternera asada y dientes de ajo confitados",
+    "entrecotes-poele": "Dos entrecots sellados con romero y ajo",
+    "viande-confite": "Carne cocinada durante horas que se deshace",
+    "crudo-saumon": "Crudo de salmón con aceite de oliva y guindilla",
+    "caviar-aubergine": "Berenjena ahumada con tahini y piñones",
+    "houmous-viande": "Hummus con carne picada y tahini",
+    "legumes-rotis": "Boniato y berenjena asados en forma de rosa",
+    "sandwichs-planche": "Pequeños bocadillos sobre una tabla en un bufé",
+    "flambe-planche": "Tabla de carne flambeada con soplete delante de los invitados",
+    "tranchage": "Ternera rosada cortada a cuchillo sobre la tabla",
+    "kebabs-tahini": "Kebabs a la parrilla con tahini sobre una tabla",
+    "video-flambe": "Tabla de carne flambeada con soplete",
+    "terrasse-tables": "Terraza con mesas redondas y sillas blancas al atardecer",
+    "plateau-fruits": "Gran bandeja de fruta fresca cortada",
+    "flambe-invites": "Tabla flambeada con soplete entre los invitados",
+    "soiree-terrasse-nuit": "Fiesta en una terraza iluminada de noche",
+    "chef-decoupe-soiree": "Yonathan corta una pieza de ternera en la mesa durante una fiesta",
+    "video-soiree": "Yonathan corta la carne en la mesa durante una fiesta",
+    "bar-bois-terrasse": "Barra de madera con copas alineadas en una terraza",
+    "verres-bar": "Copas de vino listas sobre la barra de madera",
+    "video-bar": "Servicio de barra durante un evento",
+    "yonathan-planche": "Yonathan Assouly detrás de una tabla de entrecots al romero",
+    "yonathan-service": "Yonathan corta un chuletón en la mesa",
+    "video-entrecote": "Entrecots sellándose en la parrilla"
+  }
+}

@@ -1,0 +1,550 @@
+@import "tailwindcss";
+
+@theme {
+  /* Version de nuit tirée de ses photos : noir fumé, braise, cuivre, or chaud, crème */
+  --color-charcoal: #121010;
+  --color-charcoal-soft: #1a1614;
+  --color-charcoal-deep: #0b0909;
+  --color-cream: #f3ece2;
+  /* Rouge braise : boutons et lueurs uniquement (5,7:1 avec le texte crème) */
+  --color-braise: #a8321e;
+  --color-braise-deep: #86240f;
+  /* Cuivre : filets, tracés, numéros (5,4:1 sur le fond) */
+  --color-copper: #c07a3a;
+  /* Or chaud : petit texte d'accent (8,4:1 sur le fond) */
+  --color-gold: #d2a45b;
+  /* Texte secondaire : 7,7:1 sur le fond */
+  --color-muted: #b3a596;
+  --color-line: rgb(243 236 226 / 0.13);
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-caps: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* En hébreu : Frank Ruhl Libre pour les titres, Heebo pour le texte */
+[dir="rtl"] {
+  --font-body: var(--font-heebo), Arial, sans-serif;
+  --font-caps: var(--font-heebo), Arial, sans-serif;
+  --font-display: var(--font-frank), "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color-scheme: dark;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-charcoal);
+    color: var(--color-cream);
+    font-family: var(--font-body);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-braise);
+    color: var(--color-cream);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  /* Grain discret, pour éviter l'aplat numérique */
+  .grain {
+    position: relative;
+    isolation: isolate;
+  }
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.06;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .eyebrow {
+    font-family: var(--font-caps);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    font-stretch: 112%;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+  }
+  [dir="rtl"] .eyebrow {
+    letter-spacing: 0.06em;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  /* Grands titres : Archivo élargie et fine ; Frank Ruhl Libre 300 en hébreu */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 200;
+    font-stretch: 118%;
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+  }
+  [dir="rtl"] .display {
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: 0;
+  }
+  .num {
+    font-family: var(--font-archivo);
+    font-weight: 300;
+    font-stretch: 112%;
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: 0.24em;
+  }
+  .nav-link {
+    font-family: var(--font-caps);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    font-stretch: 112%;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+  }
+  [dir="rtl"] .nav-link {
+    letter-spacing: 0.04em;
+    font-size: 0.9375rem;
+    font-weight: 400;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.9;
+    color: var(--color-muted);
+  }
+  .btn-line,
+  .btn-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    min-height: 3.25rem;
+    padding: 0.9rem 2.2rem;
+    font-family: var(--font-caps);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    font-stretch: 112%;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    transition:
+      background-color 0.7s var(--ease-soft),
+      color 0.7s var(--ease-soft),
+      border-color 0.7s var(--ease-soft),
+      box-shadow 0.9s var(--ease-soft);
+  }
+  [dir="rtl"] .btn-line,
+  [dir="rtl"] .btn-solid {
+    letter-spacing: 0.04em;
+    font-size: 0.9375rem;
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-charcoal);
+  }
+  .btn-solid {
+    background: var(--color-braise);
+    color: var(--color-cream);
+    border: 1px solid var(--color-braise);
+  }
+  .btn-solid:hover {
+    background: var(--color-braise-deep);
+    border-color: var(--color-braise-deep);
+    box-shadow: 0 0 36px -8px rgb(168 50 30 / 0.75);
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.3em;
+    transition: background-size 0.6s var(--ease-soft);
+  }
+  [dir="rtl"] .link-line {
+    background-position: 100% 100%;
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+
+  .field {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(243 236 226 / 0.22);
+    background: transparent;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    color: var(--color-cream);
+    border-radius: 0;
+    transition: border-color 0.4s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-gold);
+  }
+  .field[aria-invalid="true"] {
+    border-color: #e0613f;
+  }
+  .field::placeholder {
+    color: #857868;
+  }
+  .field::-webkit-calendar-picker-indicator {
+    filter: invert(0.85);
+  }
+  .label {
+    display: block;
+    font-family: var(--font-caps);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    font-stretch: 112%;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  [dir="rtl"] .label {
+    letter-spacing: 0.02em;
+    font-size: 0.9375rem;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid rgb(243 236 226 / 0.22);
+    border-radius: 999px;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.15rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.3s,
+      background-color 0.3s,
+      color 0.3s;
+  }
+  .chip:hover {
+    border-color: var(--color-cream);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-cream);
+    background: var(--color-cream);
+    color: var(--color-charcoal);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 1px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+
+  /* Photos : zoom très doux au survol */
+  .shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .shine img,
+  .shine video {
+    transition: transform 1.8s var(--ease-soft);
+  }
+  .shine:hover img,
+  .group:hover .shine img {
+    transform: scale(1.04);
+  }
+
+  /* Légère lueur de braise au survol des cartes */
+  .glow {
+    transition:
+      box-shadow 1s var(--ease-soft),
+      border-color 1s var(--ease-soft);
+  }
+  .glow:hover {
+    border-color: rgb(192 122 58 / 0.55);
+    box-shadow:
+      0 40px 90px -45px rgb(168 50 30 / 0.8),
+      inset 0 -1px 0 rgb(210 164 91 / 0.4);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+}
+.reveal {
+  transition:
+    opacity 1.3s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 1.3s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.5s var(--ease-soft) both;
+}
+.fade-up {
+  animation: rise 0.7s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 1.8s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.drift {
+  animation: drift 26s ease-in-out infinite alternate;
+}
+@keyframes drift {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.scroll-line {
+  animation: scroll-line 2.6s var(--ease-soft) infinite;
+  transform-origin: top;
+}
+@keyframes scroll-line {
+  0% {
+    transform: scaleY(0);
+  }
+  45% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  55% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+/* La vidéo du hero apparaît en fondu une fois prête (l'image reste dessous) */
+.video-fade {
+  opacity: 0;
+  transition: opacity 1.4s var(--ease-soft);
+}
+.video-fade.playing {
+  opacity: 1;
+}
+
+/* Lueur de braise qui respire doucement en bas des sections pleine largeur */
+.ember-glow {
+  background: radial-gradient(ellipse at 50% 100%, rgb(168 50 30 / 0.42), transparent 62%);
+  animation: ember-breathe 6s ease-in-out infinite alternate;
+}
+@keyframes ember-breathe {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (≤ 2 s) : écran noir, des braises s'allument en bas, une flamme fine monte au centre,
+   « AMEATY » se révèle comme marqué au fer chaud, puis « GRILL » et « אמיתי גריל », étincelles, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #070606;
+  overflow: hidden;
+  animation: intro-out 0.4s ease-out 1.6s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-embers {
+  opacity: 0;
+  animation: embers-on 0.5s ease-out 0.05s forwards;
+}
+.intro-embers span {
+  position: absolute;
+  bottom: -3rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffb36b 0%, #d4561f 32%, rgb(168 50 30 / 0) 70%);
+  filter: blur(3px);
+  animation: ember-pulse 0.8s ease-in-out infinite alternate;
+}
+@keyframes embers-on {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes ember-pulse {
+  to {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+}
+.intro-flame {
+  transform-origin: 50% 100%;
+  transform: scaleY(0);
+  opacity: 0;
+  animation:
+    intro-flame 0.45s cubic-bezier(0.34, 1.4, 0.64, 1) 0.2s forwards,
+    flicker 0.6s ease-in-out 0.65s infinite alternate;
+}
+@keyframes intro-flame {
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes flicker {
+  from {
+    transform: scale(1) skewX(0deg);
+  }
+  to {
+    transform: scale(0.95, 1.05) skewX(-4deg);
+  }
+}
+/* « AMEATY » apparaît chauffé à blanc puis refroidit vers le crème, comme un fer de marquage */
+.intro-brand {
+  opacity: 0;
+  animation: brand 0.8s cubic-bezier(0.65, 0, 0.35, 1) 0.55s forwards;
+}
+@keyframes brand {
+  0% {
+    opacity: 1;
+    clip-path: inset(0 50% 0 50%);
+    color: #fff4dc;
+    text-shadow:
+      0 0 18px #ffb35c,
+      0 0 44px #e0541c;
+  }
+  45% {
+    clip-path: inset(0 0 0 0);
+    color: #ffd49a;
+    text-shadow:
+      0 0 14px #ff9b45,
+      0 0 34px #c2401a;
+  }
+  100% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    color: var(--color-cream);
+    text-shadow: 0 0 0 transparent;
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: intro-fade 0.4s ease-out var(--d) forwards;
+}
+@keyframes intro-fade {
+  from {
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-spark {
+  position: absolute;
+  bottom: 20%;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #ffc078;
+  box-shadow: 0 0 6px #ff8a3d;
+  opacity: 0;
+  animation: spark 0.9s ease-out var(--d) forwards;
+}
+@keyframes spark {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x), -44vh);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  .scroll-line,
+  .drift,
+  .ember-glow {
+    animation: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

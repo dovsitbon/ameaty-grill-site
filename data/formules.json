@@ -1,0 +1,10 @@
+{
+  "_note": "À REMPLIR avec Yonathan : prix par personne « à partir de » (₪), minimum d'invités et contenu exact de chaque formule. Tant que pricesConfirmed vaut false, le site affiche « prix d'exemple ». Les textes (nom, inclus) sont dans locales/*.json (formulas).",
+  "pricesConfirmed": false,
+  "formulas": [
+    { "id": "live", "from": 180, "minGuests": 25, "image": "/media/grill/brochettes-grill.jpg", "includes": ["chef", "equipment", "meats3", "salads", "bread", "hours3"] },
+    { "id": "table", "from": 260, "minGuests": 10, "image": "/media/sur-table/planche-tranchee.jpg", "includes": ["chef", "starters", "carpaccio", "boards", "sides", "flambe"] },
+    { "id": "signature", "from": 320, "minGuests": 40, "image": "/media/grill/tomahawk-planche-fumee.jpg", "includes": ["chef", "team", "starters", "meats5", "boards", "sides", "flambe", "hours4"] }
+  ],
+  "bar": { "from": 45, "minGuests": 30, "image": "/media/bar/verres-bar.jpg", "includes": ["barman", "glasses", "drinks", "cocktails"] }
+}

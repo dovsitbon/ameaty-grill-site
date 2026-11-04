@@ -1,0 +1,8 @@
+{
+  "_note": "Menu d'EXEMPLE tiré de ses publications Instagram. À REMPLIR / CONFIRMER avec Yonathan (coupes, origine de la viande, accompagnements). Les noms et descriptions sont dans locales/*.json (menu.items).",
+  "sections": [
+    { "id": "meats", "items": ["entrecote", "tomahawk", "fillet", "skewers", "kebab", "confit"] },
+    { "id": "starters", "items": ["carpaccio", "bruschetta", "hummus", "eggplant", "crudo"] },
+    { "id": "sides", "items": ["grilledeggplant", "roastveg", "potatoes", "bread", "salads"] }
+  ]
+}

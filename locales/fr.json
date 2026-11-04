@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "title": "Chef privé casher à domicile pour vos événements en Israël | Ameaty Grill",
+    "description": "Ameaty Grill, le chef privé carné casher de Yonathan Assouly : grill live, service à table et bar pour vos soirées entre amis, anniversaires, Sheva brahot et Bar Mitsvah, partout en Israël. Il vient avec son matériel. Devis sur WhatsApp.",
+    "ogAlt": "Yonathan retourne la viande sur la grille, au-dessus des braises"
+  },
+  "intro": { "skip": "Passer" },
+  "nav": {
+    "chef": "Le chef",
+    "formulas": "Formules",
+    "events": "Événements",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "quoteShort": "Devis",
+    "menu": "Navigation",
+    "close": "Fermer",
+    "home": "Ameaty Grill – accueil",
+    "language": "Langue",
+    "skip": "Aller au contenu"
+  },
+  "whatsapp": {
+    "hello": "Bonjour Yonathan, je viens du site Ameaty Grill et j'aimerais vous parler d'un événement.",
+    "float": "Écrire à Yonathan sur WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "PRIVATE CHEF · KOSHER MEAT · ALL ISRAEL",
+    "title": "Le vrai grill, chez vous",
+    "text": "Un chef privé carné casher qui arrive avec son grill, ses braises et sa viande, et qui cuisine devant vos invités.",
+    "cta": "Demander un devis",
+    "whatsapp": "WhatsApp",
+    "scroll": "Découvrir",
+    "video": "Brochettes et côtes de bœuf qui grillent sur la braise"
+  },
+  "manifesto": {
+    "eyebrow": "Ameaty, comme « vrai »",
+    "title": "De la vraie viande, cuite devant vous, sur de vraies braises.",
+    "text": "« Amiti », en hébreu, veut dire vrai. C'est tout le principe : une viande casher choisie avec soin, des braises allumées sur place, et un chef qui tranche, flambe et sert pendant que vos invités profitent. Vous recevez, je m'occupe du feu.",
+    "link": "Ce que je propose"
+  },
+  "pillars": {
+    "eyebrow": "Trois façons de recevoir",
+    "title": "Ce que j'apporte chez vous",
+    "items": [
+      { "name": "Grill live", "label": "Au feu, devant les invités", "text": "Le grill s'installe dans votre jardin, sur la terrasse ou dans la salle. Entrecôtes, côtes, brochettes : tout sort de la braise au moment où on le mange.", "link": "Voir les formules" },
+      { "name": "Service à table", "label": "Assis, planches et assiettes", "text": "Pour un dîner, la viande arrive à table : carpaccio, planches tranchées, flambage au chalumeau devant vous. Vos invités restent assis, le spectacle vient à eux.", "link": "Voir les formules" },
+      { "name": "Bar & extras", "label": "Pour prolonger la soirée", "text": "Un bar à alcool avec barman, verres et service, et quelques extras selon l'événement. En option, sur toutes les formules.", "link": "Voir le bar" }
+    ]
+  },
+  "trust": {
+    "items": [
+      { "title": "100 % casher", "text": "Viande casher uniquement" },
+      { "title": "Matériel compris", "text": "Grill, braises, planches, ustensiles" },
+      { "title": "Partout en Israël", "text": "Maison, jardin, salle ou terrasse" },
+      { "title": "Devis sur WhatsApp", "text": "Une réponse directe du chef" }
+    ]
+  },
+  "bleed": {
+    "eyebrow": "FROM THE NORTH TO THE SOUTH",
+    "title": "Des événements dans tout le pays",
+    "text": "Du nord au sud, en ville ou au milieu des champs : le grill voyage avec moi."
+  },
+  "formulas": {
+    "eyebrow": "Formules",
+    "title": "Choisissez votre formule",
+    "text": "Trois bases à adapter à votre événement, au nombre d'invités et à vos envies. Le menu final se décide ensemble.",
+    "from": "à partir de",
+    "perGuest": "/ personne",
+    "minGuests": "Minimum {n} invités",
+    "indicative": "prix d'exemple, à confirmer",
+    "kosher": "Casher",
+    "included": "Ce qui est inclus",
+    "cta": "Choisir cette formule",
+    "items": {
+      "live": { "name": "Grill live", "note": "Le barbecue de chef, debout, autour du feu." },
+      "table": { "name": "Sur table", "note": "Un dîner servi à table, planche après planche." },
+      "signature": { "name": "Signature", "note": "Le grill et le service à table, pour les grandes occasions." }
+    },
+    "includes": {
+      "chef": "Le chef sur place, de l'allumage au dernier service",
+      "team": "Une équipe de service selon le nombre d'invités",
+      "equipment": "Grill, charbon, planches et ustensiles apportés",
+      "meats3": "3 viandes au choix",
+      "meats5": "5 viandes au choix, dont une pièce d'exception",
+      "salads": "Salades et sauces maison",
+      "bread": "Pain grillé sur la braise",
+      "hours3": "Environ 3 heures de grill",
+      "hours4": "Environ 4 heures de service",
+      "starters": "Entrées servies à table",
+      "carpaccio": "Carpaccio de bœuf",
+      "boards": "Planches de viande tranchée devant vous",
+      "sides": "Accompagnements rôtis",
+      "flambe": "Flambage au chalumeau à table",
+      "barman": "Barman et service",
+      "glasses": "Verres et bar en bois",
+      "drinks": "Vins, alcools et softs",
+      "cocktails": "Quelques cocktails à la carte"
+    },
+    "bar": {
+      "name": "Bar à alcool",
+      "note": "En option, sur toutes les formules.",
+      "cta": "Ajouter le bar"
+    }
+  },
+  "events": {
+    "eyebrow": "Événements",
+    "title": "Pour toutes vos fêtes",
+    "text": "Une soirée entre amis ou une Bar Mitsvah de deux cents personnes : même feu, même viande, même envie que tout le monde reparte content.",
+    "video": "Yonathan découpe la viande à table pendant une soirée",
+    "items": [
+      { "name": "Friends party", "text": "Le grill au milieu du jardin, la musique, et des planches qui tournent toute la soirée." },
+      { "name": "Anniversaire", "text": "Une table qui sort de l'ordinaire, et un flambage au moment où on lève les verres." },
+      { "name": "Sheva brahot", "text": "Un repas soigné pour les sept jours de fête, servi à table ou au grill, selon la soirée." },
+      { "name": "Bar Mitsvah", "text": "Beaucoup d'invités, des enfants affamés et des grands qui en redemandent : on s'organise." },
+      { "name": "Pourim & fêtes", "text": "La séouda de Pourim, Yom Haatsmaout, une fin d'année : la viande est toujours la bienvenue." }
+    ]
+  },
+  "menu": {
+    "eyebrow": "Le menu",
+    "title": "Sur la braise, et autour",
+    "text": "Une idée de ce qui peut sortir du grill. Les coupes changent selon la saison et l'arrivage.",
+    "note": "Menu d'exemple, à composer ensemble pour votre événement.",
+    "sections": { "meats": "Les viandes", "starters": "Pour commencer", "sides": "Accompagnements" },
+    "items": {
+      "entrecote": { "name": "Entrecôte", "desc": "Saisie sur la braise, tranchée à la planche, ail confit et romarin" },
+      "tomahawk": { "name": "Côte de bœuf & tomahawk", "desc": "La pièce qui fait se lever les invités" },
+      "fillet": { "name": "Filet", "desc": "Rosé, servi en tranches épaisses" },
+      "skewers": { "name": "Brochettes", "desc": "Poulet et bœuf marinés, sur la grille" },
+      "kebab": { "name": "Kebab", "desc": "Viande hachée aux herbes, sauce tahini" },
+      "confit": { "name": "Viande confite", "desc": "Cuite quatre heures, qui se défait à la fourchette" },
+      "carpaccio": { "name": "Carpaccio de bœuf", "desc": "Réduction balsamique, ail, piment vert" },
+      "bruschetta": { "name": "Bruschettas", "desc": "Bœuf séché, salade croquante, champignons" },
+      "hummus": { "name": "Houmous à la viande", "desc": "Houmous crémeux, viande hachée poêlée, tahini" },
+      "eggplant": { "name": "Caviar d'aubergine", "desc": "Aubergine fumée, tahini, pignons" },
+      "crudo": { "name": "Crudo de saumon", "desc": "Huile d'olive, piment, aneth" },
+      "grilledeggplant": { "name": "Aubergines à la braise", "desc": "Cuites entières dans le charbon" },
+      "roastveg": { "name": "Légumes rôtis", "desc": "Patate douce, courgette, aubergine" },
+      "potatoes": { "name": "Pommes de terre", "desc": "Rôties, croustillantes" },
+      "bread": { "name": "Pain grillé", "desc": "Passé sur la braise juste avant de servir" },
+      "salads": { "name": "Salades & sauces", "desc": "Salades fraîches, chimichurri, sauces maison" }
+    }
+  },
+  "process": {
+    "eyebrow": "Comment ça marche",
+    "title": "Quatre étapes, zéro stress",
+    "steps": [
+      { "name": "On en parle", "text": "Un message WhatsApp ou le formulaire : la date, le lieu, le nombre d'invités." },
+      { "name": "On compose", "text": "On choisit la formule et le menu ensemble, et je vous envoie un devis clair." },
+      { "name": "J'arrive", "text": "Le jour J, j'arrive avec le grill, le charbon, la viande et tout le matériel." },
+      { "name": "Vous profitez", "text": "Vous êtes avec vos invités. Je m'occupe du feu, du service et du rangement." }
+    ]
+  },
+  "chef": {
+    "eyebrow": "Le chef",
+    "title": "Yonathan Assouly",
+    "text": [
+      "Ameaty Grill, c'est moi : Yonathan, chef privé carné, casher, qui se déplace chez vous et sur vos événements partout en Israël.",
+      "J'aime le moment où la braise est prête, où la première pièce touche la grille, et où les invités commencent à se rapprocher du feu. Mon travail, c'est que ce moment dure toute la soirée."
+    ],
+    "follow": "Suivre @ameaty_grill",
+    "video": "Entrecôtes qui saisissent sur la grille"
+  },
+  "gallery": {
+    "eyebrow": "De près",
+    "title": "La braise, la viande, la table",
+    "text": "Des photos de mes événements, sans retouche.",
+    "filters": { "all": "Tout", "grill": "Grill", "table": "Sur table", "events": "Événements" },
+    "open": "Agrandir",
+    "more": "Plus sur Instagram"
+  },
+  "reviews": {
+    "eyebrow": "Avis",
+    "title": "Ils en parlent mieux que moi",
+    "empty": "Les avis de mes clients arrivent bientôt ici. En attendant, leurs soirées sont sur Instagram.",
+    "cta": "Voir sur Instagram"
+  },
+  "area": {
+    "eyebrow": "Zone",
+    "title": "Tout Israël",
+    "text": "Je me déplace dans tout le pays, chez vous, dans un jardin, une salle ou sur une terrasse.",
+    "items": [
+      { "label": "Où", "value": "Partout en Israël. Les frais de déplacement dépendent de la distance et sont indiqués dans le devis." },
+      { "label": "Cacheroute", "value": "Viande casher uniquement. Précisez votre exigence dans la demande." },
+      { "label": "Matériel", "value": "J'apporte le grill, le charbon, les planches et les ustensiles." },
+      { "label": "Contact", "value": "WhatsApp ou téléphone : 054-968-6221" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Avant de réserver",
+    "items": [
+      { "q": "La viande est-elle casher ?", "a": "Oui, toute la viande est casher. Si vous avez une exigence précise (Rabbanout, Méhadrin, Badatz), indiquez-la dans votre demande et je vous confirme ce qui est possible." },
+      { "q": "Qu'est-ce que je dois prévoir chez moi ?", "a": "Un espace à l'extérieur ou bien ventilé pour le grill, et c'est à peu près tout. J'arrive avec le grill, le charbon, les planches et les ustensiles." },
+      { "q": "À partir de combien d'invités ?", "a": "Cela dépend de la formule : un dîner sur table peut se faire en petit comité, un grill live est pensé pour les groupes. Les minimums sont indiqués sur chaque formule." },
+      { "q": "Vous vous déplacez où ?", "a": "Partout en Israël. Les éventuels frais de déplacement sont indiqués clairement dans le devis." },
+      { "q": "Comment réserver une date ?", "a": "Remplissez le formulaire ou écrivez-moi sur WhatsApp. On fixe le menu ensemble, puis je bloque la date." }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Devis",
+    "title": "Parlez-moi de votre événement",
+    "text": "Quelques détails, le message s'ouvre dans votre WhatsApp, et je reviens vers vous avec un devis.",
+    "steps": { "event": "L'événement", "menu": "La formule", "contact": "Vos coordonnées" },
+    "fields": {
+      "type": "Type d'événement",
+      "types": { "friends": "Friends party", "birthday": "Anniversaire", "sheva": "Sheva brahot", "barmitzvah": "Bar Mitsvah", "party": "Fête", "corporate": "Entreprise", "other": "Autre" },
+      "date": "Date",
+      "time": "Heure",
+      "place": "Lieu / ville",
+      "placePlaceholder": "Ex. : Netanya, dans le jardin",
+      "guests": "Nombre d'invités",
+      "formula": "Quelle formule ?",
+      "formulas": { "live": "Grill live", "table": "Sur table", "both": "Les deux / à voir ensemble" },
+      "bar": "Bar à alcool ?",
+      "yesno": { "yes": "Oui", "no": "Non" },
+      "kashrut": "Exigences de cacheroute",
+      "kashrutPlaceholder": "Ex. : Rabbanout, Méhadrin, Badatz",
+      "budget": "Budget indicatif par personne",
+      "budgetPlaceholder": "Ex. : 250 ₪",
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "message": "Autre chose à savoir ?",
+      "messagePlaceholder": "Allergies, enfants, idées de menu, tout est bienvenu",
+      "optional": "facultatif",
+      "dateTaken": "Cette date est déjà prise. Envoyez quand même, on trouvera peut-être une solution.",
+      "dateFree": "La date semble libre. On confirmera ensemble."
+    },
+    "submit": "Envoyer sur WhatsApp",
+    "hint": "Rien n'est enregistré sur le site : le récapitulatif s'ouvre dans WhatsApp et c'est vous qui l'envoyez.",
+    "required": "J'en ai besoin pour vous recontacter",
+    "invalidPhone": "Ce numéro ne semble pas valide",
+    "pickType": "Choisissez un type d'événement",
+    "success": {
+      "thanks": "Merci !",
+      "title": "Votre message est prêt dans WhatsApp",
+      "text": "Il ne reste qu'à appuyer sur envoyer. Je reviens vers vous rapidement avec un devis.",
+      "again": "Rouvrir WhatsApp",
+      "reset": "Nouvelle demande"
+    },
+    "message": {
+      "title": "Demande de devis – Ameaty Grill",
+      "type": "Événement",
+      "date": "Date",
+      "time": "Heure",
+      "place": "Lieu",
+      "guests": "Invités",
+      "formula": "Formule",
+      "bar": "Bar à alcool",
+      "kashrut": "Cacheroute",
+      "budget": "Budget / pers.",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "notes": "Précisions",
+      "closing": "Envoyé depuis le site Ameaty Grill"
+    }
+  },
+  "lightbox": { "close": "Fermer", "prev": "Précédente", "next": "Suivante", "counter": "{n} sur {total}" },
+  "footer": {
+    "tagline": "Chef privé carné casher, à domicile et sur vos événements, partout en Israël.",
+    "contact": "Contact",
+    "explore": "Sur le site",
+    "area": "Événements dans tout Israël",
+    "rights": "Tous droits réservés",
+    "photos": "Toutes les photos et vidéos : événements d'Ameaty Grill"
+  },
+  "alt": {
+    "grill-pinces-fumee": "Yonathan retourne la viande sur la grille, au-dessus des braises",
+    "braises": "Braises rougeoyantes et flammes dans le grill",
+    "tomahawks-grill": "Deux tomahawks grillés tenus par l'os au-dessus de la grille",
+    "video-grill": "Brochettes et côtes qui grillent sur la braise",
+    "brochettes-grill": "Brochettes de bœuf et de poulet alignées sur la grille",
+    "cotes-crues-planche": "Côtes de bœuf crues persillées sur une planche en bois",
+    "entrecotes-crues": "Entrecôtes crues alignées sur une longue planche",
+    "tomahawk-planche-fumee": "Côtes de bœuf sur un rondin, dans un nuage de fumée froide",
+    "entrecotes-romarin": "Entrecôtes assaisonnées au romarin, ail et piment rouge",
+    "entrecotes-sur-le-grill": "Entrecôtes épaisses posées sur la grille",
+    "cote-de-boeuf-grill": "Côtes de bœuf qui saisissent sur le grill",
+    "aubergines-braise": "Aubergines entières qui cuisent sur la braise",
+    "lit-de-braises": "Lit de charbons ardents prêt pour la cuisson",
+    "planche-tranchee": "Planche de bœuf tranché, ail confit et romarin",
+    "bruschettas-boeuf-seche": "Bruschettas au bœuf séché et réduction balsamique sur ardoise",
+    "bruschettas-champignons": "Bruschettas au bœuf séché et champignons grillés",
+    "carpaccio": "Carpaccio de bœuf, ail, piment vert et réduction",
+    "planche-kebabs-entrecote": "Planche de kebabs et d'entrecôte tranchée aux légumes",
+    "filet-tranche-planche": "Filet rosé tranché sur une planche en bois",
+    "planche-ail-confit": "Lamelles de bœuf grillé et gousses d'ail confites",
+    "entrecotes-poele": "Deux entrecôtes saisies au romarin et à l'ail",
+    "viande-confite": "Viande confite pendant des heures, qui se défait",
+    "crudo-saumon": "Crudo de saumon à l'huile d'olive et au piment",
+    "caviar-aubergine": "Caviar d'aubergine au tahini et aux pignons",
+    "houmous-viande": "Houmous garni de viande hachée et de tahini",
+    "legumes-rotis": "Patate douce et aubergine rôties en rosace",
+    "sandwichs-planche": "Petits sandwichs garnis sur une planche, servis à un buffet",
+    "flambe-planche": "Planche de viande flambée au chalumeau devant les invités",
+    "tranchage": "Bœuf rosé tranché au couteau sur la planche",
+    "kebabs-tahini": "Kebabs grillés nappés de tahini sur une planche",
+    "video-flambe": "Planche de viande flambée au chalumeau",
+    "terrasse-tables": "Terrasse dressée de tables rondes et de chaises blanches, au coucher du soleil",
+    "plateau-fruits": "Grand plateau de fruits frais coupés",
+    "flambe-invites": "Planche flambée au chalumeau au milieu des invités",
+    "soiree-terrasse-nuit": "Soirée sur une terrasse illuminée, la nuit",
+    "chef-decoupe-soiree": "Yonathan découpe une pièce de bœuf à table pendant une soirée",
+    "video-soiree": "Yonathan découpe la viande à table pendant une soirée",
+    "bar-bois-terrasse": "Bar en bois et verres alignés sur une terrasse",
+    "verres-bar": "Verres à vin prêts sur le bar en bois",
+    "video-bar": "Service au bar pendant un événement",
+    "yonathan-planche": "Yonathan Assouly derrière une planche d'entrecôtes au romarin",
+    "yonathan-service": "Yonathan tranche une côte de bœuf à table",
+    "video-entrecote": "Entrecôtes qui saisissent sur la grille"
+  }
+}
